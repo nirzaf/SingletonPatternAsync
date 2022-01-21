@@ -5,6 +5,7 @@ Console.WriteLine("Hello, World!");
 var fooObject = await Foo.CreateAsync();
 
 
+//Singleton Class with Async Object Initialization 
 public sealed class Foo
 {
     private Foo()
